@@ -1,7 +1,7 @@
 @font-face {
-    font-family: Roboto;
-    src: url(Roboto-Bold.ttf);
-    font-weight: bold;
+  font-family: Roboto;
+  src: url(Roboto-Bold.ttf);
+  font-weight: bold;
 }
 
 * {
@@ -68,9 +68,6 @@ li:hover {
     h2 {
         text-align: center;
     }
-    img {
-        width: 65%;
-    }
     ul {
         padding-left: 100px;
     }
@@ -78,6 +75,10 @@ li:hover {
         margin: 9px;
         min-width: 150px;
     }
+    img{
+      width: 65%;
+    }
+   
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
@@ -93,7 +94,7 @@ li:hover {
         width: 36%;
     }
     img:hover {
-        transform: scale(1.2);
+        transform: scale(1.4);
     }
 }
 
